@@ -1,4 +1,11 @@
 package br.com.correios.repository;
 
-public class Repository {
+public interface Repository<T> {
+    void salvar(T t);
+
+    void alterar(T t);
+
+    void buscar(T t);
+
+    void deletar(T t);
 }
