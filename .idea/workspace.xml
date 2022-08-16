@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac05b25e-2769-4237-bb43-24468c956e35" name="Changes" comment="" />
+    <list default="true" id="ac05b25e-2769-4237-bb43-24468c956e35" name="Changes" comment="Criação de projeto." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DQ1AlIhMpcDymVwOvWWA9uAXpi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,6 +62,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660616356755</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criação de projeto.">
+      <created>1660616468922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660616468922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -63,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criação de projeto." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação de projeto." />
   </component>
 </project>
