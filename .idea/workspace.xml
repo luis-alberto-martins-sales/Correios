@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac05b25e-2769-4237-bb43-24468c956e35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/correios/DAO/ProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/correios/calculoEntrega/ModoDeEntrega.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/correios/model/Produto.java" afterDir="false" />
+    <list default="true" id="ac05b25e-2769-4237-bb43-24468c956e35" name="Changes" comment="Inclusão de classe de testes.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/correios/calculoEntrega/CalcularTaxaDeEntrega.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/correios/model/Carteiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/correios/model/Copiavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TesteCorreios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/correios/DAO/ProdutoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/correios/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/correios/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/correios/calculoEntrega/ModoDeEntrega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/correios/calculoEntrega/ModoDeEntrega.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/correios/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/correios/model/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/correios/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/correios/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TesteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TesteRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -30,20 +39,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2DQ1AlIhMpcDymVwOvWWA9uAXpi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.TesteRepository.deveTestarTeste">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.correios.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TesteRepository">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.correios.Main" />
       <module name="Correios" />
@@ -57,11 +82,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteRepository.deveTestarTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Correios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Correios" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteCorreios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Correios" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteCorreios" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Correios" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TesteRepository" />
-      <option name="METHOD_NAME" value="deveTestarTeste" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteRepository.deveSalvarProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Correios" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteRepository" />
+      <option name="METHOD_NAME" value="deveSalvarProduto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,9 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TesteRepository.deveTestarTeste" />
+        <item itemvalue="JUnit.TesteRepository" />
+        <item itemvalue="JUnit.TesteCorreios" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in Correios" />
+        <item itemvalue="JUnit.TesteRepository.deveSalvarProduto" />
       </list>
     </recent_temporary>
   </component>
@@ -84,6 +137,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660616356755</updated>
     </task>
+    <task id="LOCAL-00001" summary="Inclusão de classe de testes.">
+      <created>1660619167904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660619167904</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,5 +157,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inclusão de classe de testes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Inclusão de classe de testes." />
   </component>
 </project>

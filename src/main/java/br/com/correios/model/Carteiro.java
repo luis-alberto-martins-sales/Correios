@@ -1,36 +1,34 @@
 package br.com.correios.model;
 
-import java.math.BigDecimal;
 import java.util.Objects;
 
-public class Produto implements Copiavel<Produto> {
+public class Carteiro implements Copiavel<Carteiro>{
     private String nome;
-    private BigDecimal preco;
+    private String matricula;
 
-    public Produto( String nome, BigDecimal preco) {
+    public Carteiro(String nome, String matricula) {
         this.nome = nome;
-        this.preco = preco;
+        this.matricula = matricula;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Produto produto = (Produto) o;
-        return nome.equals(produto.nome) && preco.equals(produto.preco);
+        Carteiro carteiro = (Carteiro) o;
+        return nome.equals(carteiro.nome) && matricula.equals(carteiro.matricula);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(nome, preco);
+        return Objects.hash(nome, matricula);
     }
 
     @Override
     public String toString() {
-        return "Produto{" +
+        return "Carteiro{" +
                 "nome='" + nome + '\'' +
-                ", preco=" + preco +
+                ", matricula='" + matricula + '\'' +
                 '}';
     }
-
 }
